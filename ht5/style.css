@@ -1,0 +1,136 @@
+*{
+margin: 0;
+}
+.container__pricing{
+    width: 1508px;
+    height: 900px;
+    background: #F5F5F5;
+    padding-top: 50px;
+}
+.pricing__title{
+    width: 1170;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing__title h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pricing__hr hr{
+    border-top: 1px solid #EC7979;
+    width: 170px;
+    height: 0px;
+    margin-left: 668px;
+}
+.pricing__subtitle{
+    width: 1170;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.pricing__subtitle h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+.content{
+
+    height: 420px;
+    margin-top: 80px;
+    width: 1170px;
+    display: flex;
+    margin-left: 170px;
+}
+.column{
+    height: 400px;
+
+}
+.rectangle{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #F5F5F5;
+    position: relative;
+ 
+}
+.rectangle:nth-child(1){
+    background: #333333;
+    height: 60px;
+}
+.rectangle:nth-child(2){
+    background: #333333;
+    height: 100px;
+}
+.rectangle:nth-child(3){
+    background: #333333;
+}
+.content{
+    justify-content: space-between;
+}
+.column:nth-child(2){
+    margin-top: -20px;
+}
+.rectangle h5{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: 15px;
+}
+.rectangle h4{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 29px;
+
+color: #FFFFFF;
+}
+.rectangle h6:nth-child(1){
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.rectangle h6{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #86878B;
+
+}
